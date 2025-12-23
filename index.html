@@ -36,21 +36,18 @@
      </div>
     </div>
     <script>
-        const apikey = "2841d77e327acbe1f0c2ff8e09f1e77e";
-        const apiUrl ="https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
-<<<<<<< HEAD
+     const apikey= "2841d77e327acbe1f0c2ff8e09f1e77e";
+     const apiUrl =
+  "https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore";
 
-        async function checkWeather() {
-  const response = await fetch(`${apiUrl}&appid=${apikey}`);
-  const data = await response.json();
-  console.log(data);
-}
+  async function checkWeather() {
+    const response = await fetch(`${apiUrl}&appid=${apikey}`);
+    const data = await response.json();
+    console.log(data);
+  }
 
-checkWeather();
+  checkWeather();
+</script>
 
-=======
-       
->>>>>>> 9bcc0d0564cdca109878c4ded7f540eea53b4f09
-    </script>
 </body>
 </html>
